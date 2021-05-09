@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="OnlineCoursePlatform.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css" type="text/css" media="screen" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="u-body">
+    <header class="u-clearfix u-header u-header" id="sec-85c8">
+
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <a href="Registration.aspx" runat="server" id="RegisterBB" class="u-border-2 u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-white u-palette-1-base u-radius-11 u-btn-1">Register</a>
+            <a href="Login.aspx" runat="server" id="LoginBB" class="u-border-2 u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-radius-11 u-white u-btn-2">Login</a>
+            <a href="Default.aspx">
+                <img src="images/Future_Devs-removebg-preview.png" alt="logo" class="u-image u-image-default u-image-1" data-image-width="397" data-image-height="145">
+            </a>
+        </div>
+    </header>
+    <asp:ContentPlaceHolder ID="body" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
